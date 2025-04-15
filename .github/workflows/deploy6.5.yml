@@ -44,7 +44,7 @@ jobs:
           --name CustomScript \
           --force-update \
           --publisher Microsoft.Azure.Extensions \
-          --settings '{"commandToExecute": "bash /home/azureuser/WeCloudData-ChatBot/update.sh"}'
+          --settings '{"commandToExecute": "bash /home/azureuser/stage6.5/update.sh"}'
 
     # Apply rolling upgrade to all VMSS instances
     - name: Apply rolling upgrade to VMSS
